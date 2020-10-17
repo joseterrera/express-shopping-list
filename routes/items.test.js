@@ -42,8 +42,6 @@ describe('GET /items/:name', async function() {
   });
 });
 
-
-
 /** POST /items - create item from data; return `{item: item}` */
 describe("POST /items", async function() {
   test("Creates a new item", async function() {
@@ -84,7 +82,7 @@ describe("PATCH /items/:name", async function() {
  *  return `{message: "item deleted"}` */
 
  describe("DELETE /items/:name", async function() {
-   test("Deletes a single item" async function() {
+   test("Deletes a single item", async function() {
      const response = await request(app)
      .delete(`/items/${item.name}`);
      expect(response.statusCode).toBe(200);
