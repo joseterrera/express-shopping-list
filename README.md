@@ -32,3 +32,6 @@ Jest and Supertest are used to test these routes.
 
 Using [insomnia]('https://insomnia.rest/') is free and very useful. I would check out the file items.test.js and use those testing routes on insomnia to add, delete, patch, and view.  
 To run tests simply type `jest` on the terminal.
+
+To debug tests, console.log works in many cases. You can also try:
+`node --inspect $(which jest) --runInBand NAME_OF_FILE` and adding `debugger` on your tests file. Then on chrome, you can debug your tests using chrome dev tools.
