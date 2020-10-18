@@ -1,0 +1,26 @@
+{
+  "name": "express-shopping-list",
+  "version": "1.0.0",
+  "description": "This is a simple JSON API application where we will store a shopping list. Each item in the shopping list is an object with the keys of name and price.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseterrera/express-shopping-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseterrera/express-shopping-list/issues"
+  },
+  "homepage": "https://github.com/joseterrera/express-shopping-list#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "supertest": "^5.0.0"
+  }
+}
